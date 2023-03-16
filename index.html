@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sergey Kruglov</title>
+  <meta name="description" content="Full-Stack developer" />
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      margin: 0;
+      background: #fff;
+      height: 100vh;
+      display: flex;
+    }
+
+    .root {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      max-width: 432px;
+      margin: 0 auto 0 auto;
+      font-weight: 200;
+      padding: 0 20px 0 20px;
+    }
+
+    a {
+      border-bottom: 1px solid #fff;
+      color: #000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      border-bottom: 1px solid #000;
+      transition: all 0.4s ease-out;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 62px;
+      font-weight: 400;
+    }
+
+    h1 b:hover {
+      color: #fff;
+      background: #000;
+      transition: all 0.2s ease;
+    }
+
+    h2 {
+      margin: 26px 0 0 0;
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    h3 {
+      margin: 10px 0 0 0;
+      font-size: 14px;
+      font-weight: 400;
+      color: #bbbbbb;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 28px;
+    }
+
+    footer a {
+      margin: 8px 16px 0 0;
+    }
+
+    nav {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: left;
+    }
+  </style>
 </head>
+
 <body>
-  
+  <div class="root">
+    <header></header>
+    <main>
+      <article>
+        <header>
+          <h1>Hi, I'm <br /><b>Sergey Kruglov</b></h1>
+        </header>
+        <section>
+          <h2>Full-Stack developer</h2>
+          <h3>Estonia, Tallinn</h3>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <nav>
+        <a target="_blank" href="mailto:srgy.krglv@gmail.com">Email</a>
+        <a target="_blank" href="https://www.linkedin.com/in/sergey-kruglov/">LinkedIn</a>
+        <a target="_blank" href="https://github.com/sergey-kruglov">GitHub</a>
+        <a target="_blank" href="https://www.facebook.com/srgy.krglv">Facebook</a>
+        <a target="_blank" href="https://www.instagram.com/srgy.krglv/">Instagram</a>
+        <a target="_blank" href="https://t.me/s_kruglov">Telegram</a>
+      </nav>
+    </footer>
+  </div>
 </body>
+
 </html>
