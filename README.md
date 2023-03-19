@@ -1,2 +1,2 @@
 # my-page
-My page
+https://sergey-kruglov.com
