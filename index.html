@@ -1,141 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Sergey Kruglov</title>
+    <meta name="theme-color" content="white" />
+    <meta name="description" content="Senior Software Engineer" />
+    <meta property="og:title" content="Sergey Kruglov" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Senior Software Engineer" />
+    <meta property="og:url" content="https://sergey-kruglov.com" />
+    <meta
+      property="og:image"
+      content="https://sergey-kruglov.com/static/og-image.png"
+    />
+    <meta name="twitter:title" content="Sergey Kruglov" />
+    <meta name="twitter:description" content="Senior Software Engineer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://sergey-kruglov.com/static/og-image.png"
+    />
+    <meta
+      property="vk:image"
+      content="https://sergey-kruglov.com/static/og-image.png"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>Sergey Kruglov</title>
-  <meta name="theme-color" content="white" />
-  <meta name="description" content="Senior Software Engineer" />
-  <meta property="og:title" content="Sergey Kruglov" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description" content="Senior Software Engineer" />
-  <meta property="og:url" content="https://sergey-kruglov.com" />
-  <meta property="og:image" content="https://sergey-kruglov.com/static/og-image.png" />
-  <meta name="twitter:title" content="Sergey Kruglov" />
-  <meta name="twitter:description" content="Senior Software Engineer" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://sergey-kruglov.com/static/og-image.png" />
-  <meta property="vk:image" content="https://sergey-kruglov.com/static/og-image.png" />
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        margin: 0;
+        background: #fff;
+        height: 100vh;
+        display: flex;
+      }
 
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
-        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-      margin: 0;
-      background: #fff;
-      height: 100vh;
-      display: flex;
-    }
+      .root {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        max-width: 432px;
+        margin: 0 auto 0 auto;
+        font-weight: 200;
+        padding: 0 20px 0 20px;
+      }
 
-    .root {
-      display: flex;
-      flex-flow: column;
-      justify-content: center;
-      max-width: 432px;
-      margin: 0 auto 0 auto;
-      font-weight: 200;
-      padding: 0 20px 0 20px;
-    }
+      a {
+        border-bottom: 1px solid #fff;
+        color: #000;
+        text-decoration: none;
+      }
 
-    a {
-      border-bottom: 1px solid #fff;
-      color: #000;
-      text-decoration: none;
-    }
+      a:hover {
+        border-bottom: 1px solid #000;
+        transition: all 0.4s ease-out;
+      }
 
-    a:hover {
-      border-bottom: 1px solid #000;
-      transition: all 0.4s ease-out;
-    }
+      h1 a:hover {
+        border-bottom: 1px solid #ffffff;
+        transition: all 0.4s ease-out;
+        color: #fff;
+      }
 
-    h1 a:hover {
-      border-bottom: 1px solid #ffffff;
-      transition: all 0.4s ease-out;
-      color: #fff;
-    }
+      h1 {
+        margin: 0;
+        font-size: 62px;
+        font-weight: 400;
+      }
 
-    h1 {
-      margin: 0;
-      font-size: 62px;
-      font-weight: 400;
-    }
+      h1 b:hover {
+        color: #fff;
+        background: #000;
+        transition: all 0.2s ease;
+      }
 
-    h1 b:hover {
-      color: #fff;
-      background: #000;
-      transition: all 0.2s ease;
-    }
+      h2 {
+        margin: 26px 0 0 0;
+        font-size: 24px;
+        font-weight: 400;
+      }
 
-    h2 {
-      margin: 26px 0 0 0;
-      font-size: 24px;
-      font-weight: 400;
-    }
+      h3 {
+        margin: 10px 0 0 0;
+        font-size: 14px;
+        font-weight: 400;
+        color: #4d4d4d;
+      }
 
-    h3 {
-      margin: 10px 0 0 0;
-      font-size: 14px;
-      font-weight: 400;
-      color: #4d4d4d;
-    }
+      footer {
+        margin-top: 40px;
+        font-size: 28px;
+      }
 
-    footer {
-      margin-top: 40px;
-      font-size: 28px;
-    }
+      footer a {
+        margin: 8px 16px 0 0;
+      }
 
-    footer a {
-      margin: 8px 16px 0 0;
-    }
+      nav {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: left;
+      }
+    </style>
 
-    nav {
-      display: flex;
-      flex-flow: wrap;
-      justify-content: left;
-    }
-  </style>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XMGN0FK8TE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XMGN0FK8TE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+      gtag("config", "G-XMGN0FK8TE");
+    </script>
+  </head>
 
-    gtag("config", "G-XMGN0FK8TE");
-  </script>
-</head>
-
-<body>
-  <div class="root">
-    <header></header>
-    <main>
-      <article>
-        <header>
-          <h1>Hi, I'm <br /><b><a href="/about.html">Sergey Kruglov</a></b></h1>
-        </header>
-        <section>
-          <h2>Senior Software Engineer 🪄 </h2>
-          <h3>Estonia, Tallinn</h3>
-        </section>
-      </article>
-    </main>
-    <footer>
-      <nav>
-        <a target="_blank" rel="noopener" href="mailto:me@sergey-kruglov.com">Email</a>
-        <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/sergey-kruglov/">LinkedIn</a>
-        <a target="_blank" rel="noopener" href="https://github.com/sergey-kruglov">GitHub</a>
-        <a target="_blank" rel="noopener" href="https://www.facebook.com/srgy.krglv">Facebook</a>
-        <a target="_blank" rel="noopener" href="https://www.instagram.com/srgy.krglv/">Instagram</a>
-        <a target="_blank" rel="noopener" href="https://t.me/s_krglv">Telegram</a>
-      </nav>
-    </footer>
-  </div>
-</body>
-
+  <body>
+    <div class="root">
+      <header></header>
+      <main>
+        <article>
+          <header>
+            <h1>Hi, I'm <br /><b>Sergey Kruglov</b></h1>
+          </header>
+          <section>
+            <h2>Senior Software Engineer 🪄</h2>
+            <h3>Estonia, Tallinn</h3>
+          </section>
+        </article>
+      </main>
+      <footer>
+        <nav>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="mailto:hello@sergey-kruglov.com"
+            >Email
+          </a>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://www.linkedin.com/in/sergey-kruglov/"
+            >LinkedIn</a
+          >
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://github.com/sergey-kruglov"
+            >GitHub</a
+          >
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://www.facebook.com/srgy.krglv"
+            >Facebook</a
+          >
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://www.instagram.com/srgy.krglv/"
+            >Instagram</a
+          >
+          <a target="_blank" rel="noopener" href="https://t.me/s_krglv"
+            >Telegram</a
+          >
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>
