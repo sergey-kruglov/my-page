@@ -1,0 +1,21 @@
+# Sergey Kruglov
+
+> Senior Software Engineer based in Tallinn, Estonia.
+
+Personal landing page for Sergey Kruglov. The canonical home for contact details and links to verified profiles across the web.
+
+## Profile
+
+- Name: Sergey Kruglov
+- Role: Senior Software Engineer
+- Location: Tallinn, Estonia
+- Website: https://sergey-kruglov.com/
+
+## Contact
+
+- [Email](mailto:hello@sergey-kruglov.com)
+- [LinkedIn](https://www.linkedin.com/in/sergey-kruglov/)
+- [GitHub](https://github.com/sergey-kruglov)
+- [Facebook](https://www.facebook.com/srgy.krglv)
+- [Instagram](https://www.instagram.com/srgy.krglv/)
+- [Telegram](https://t.me/s_krglv)
